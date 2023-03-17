@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="css/images/favicon.png">
+
+</head>
+<body>
+    <div class="container">
+        <h2 id="header">Registration Form</h2>
+        <form id="form" class="form" action="#" autocomplete="off">
+
+           <div class="user-name userel">
+            <label for="userid">User Name</label>
+            <input type="text" id="userid" placeholder="Enter your Name" data-name="user-name">
+            <p class="msg"></p>
+           </div>
+           <div class="user-email userel">
+            <label for="emailid">User Email</label>
+            <input type="email" id="emailid" placeholder="Enter your Email" data-name="user-email">
+            <p  class="msg"></p>
+           </div>
+           <div class="user-password userel">
+            <label for="passwordid">User Password</label>
+            <input type="text" id="passwordid" placeholder="Enter your password" data-name="user-password">
+            <p  class="msg"></p>
+           </div>
+           <div class="user-confirm userel">
+            <label for="confirmid">Confirm Password</label>
+            <input type="text" id="confirmid" placeholder="Enter confirm password" data-name="confirm-password">
+            <p  class="msg"></p>
+           </div>
+           <div class="submit">
+            <button type="submit" id="submit">Submit</button>
+           </div>
+          
+
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

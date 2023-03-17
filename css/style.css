@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    height:100vh;
+    background-color: #002a26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width:400px;
+    height:500px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.container label{
+    color:black;
+    font-size: 16px;
+    text-align: left;
+}
+#header{
+    color: blue;
+}
+.container input{
+    width:100%;
+    height:35px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    text-indent: 10px;
+}
+
+.userel p {
+    color:red;
+    font-size: 12px;
+    visibility: hidden;
+}
+.userel{
+    width:100%;
+    height:90px;
+}
+#submit{
+    width: 100%;
+    height:30px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+#submit:hover{
+    background-color: rgba(0, 0, 255, 0.855);
+    color:black;
+}
+
+
+
+.userel.error p{
+    color:red;
+    visibility: visible;
+}
+.userel.error input{
+    border: 3px solid red;
+}
+.userel.success input{
+    border: 3px solid green;
+}
